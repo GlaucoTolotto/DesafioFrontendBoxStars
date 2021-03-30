@@ -16,8 +16,12 @@ body {
 main {
     width: 940px;
     padding: auto;
-    margin: 0 auto;
+    margin: 100px auto;
     box-sizing: border-box;
+}
+.parte-de-cima {
+    display: flex;
+    padding: 50px 5px;
 }
 
 .titulo-texto {
@@ -37,10 +41,17 @@ h1 {
     color: hsl(300, 43%, 22%);
 }
 
+.caixa-estrela {
+    width: 50%;
+}
+
 .starbox {
     display: flex;
-    flex-direction: row;
-    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    height: 100%;
+    
 }
 
 .starbox li{
