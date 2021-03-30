@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+
+html {
+    min-height: 100%;
+    background-image: url('./images/bg-pattern-bottom-desktop.svg');
+    background-position: bottom right;
+    background-size: 600px;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-image: url('./images/bg-pattern-top-desktop.svg');
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 940px;
+    padding: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.titulo-texto {
+    display: inline-block;
+    text-align: start;
+    width: 50%;
+}
+
+.titulo-texto p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-family:'Spartan', sans-serif;
+    font-size: 30px;
+    color: hsl(300, 43%, 22%);
+}
+
+.starbox {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.starbox li{
+    background-color: #cccccc;
+}
+
+.caixas {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.caixas ul{
+    text-align: left;
+    
+}
+
+.caixas li {
+    display: inline-block;
+    width: 30%;
+    padding: 25px;
+    margin: 0 10px;
+    background-color: hsl(300, 43%, 22%);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.caixas img {
+    border-radius: 50%;
+    width: 15%;
+}
+
+.caixas h2 {
+    font-weight: bold;
+    color: white;
+    
+}
+
+.verificado {
+    color:hsl(333, 80%, 67%);
+    margin-bottom: 10px;
+}
+
+.conteudo-caixa {
+    color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
