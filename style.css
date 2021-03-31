@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
 html {
     min-height: 100%;
     background-image: url('./images/bg-pattern-bottom-desktop.svg');
@@ -16,28 +16,33 @@ body {
 main {
     width: 940px;
     padding: auto;
-    margin: 100px auto;
+    margin:auto;
     box-sizing: border-box;
 }
 .parte-de-cima {
     display: flex;
     padding: 50px 5px;
+    
 }
 
 .titulo-texto {
     display: inline-block;
     text-align: start;
-    width: 50%;
+    width: 35%;
+    
 }
 
 .titulo-texto p {
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Spartan', sans-serif;
+    margin-top: 10px;
 }
 
 h1 {
     font-family:'Spartan', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: bold;
     color: hsl(300, 43%, 22%);
 }
 
@@ -51,43 +56,89 @@ h1 {
     justify-content: space-around;
     align-items:center;
     height: 100%;
-    
+    width: 100%;
+    margin-left: 60px;  
 }
 
-.starbox li{
-    background-color: #cccccc;
+.card1 {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    margin-left: 10px;
+    padding: 10px 70px 10px 10px;
+    border-radius: 5px;
+}
+
+.card2 {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    margin-left: 60px;
+    padding: 10px 70px 10px 10px;
+    border-radius: 5px;
+}
+
+.card3 {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    margin-left: 120px;
+    padding: 10px 70px 10px 10px;
+    border-radius: 5px;
+}
+
+.imagens-estrela {
+    display: flex;
+    margin-right: 10px;
 }
 
 .caixas {
-    width: 940px;
+    width: 100%;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 30px 0;
+    height: 200px;
 }
 
-.caixas ul{
-    text-align: left;
-    
+.caixa1 {
+    margin-top: p;
+}
+
+.caixa2 {
+    margin-top: ;
+}
+
+.caixa3 {
+    margin-top:30px;
 }
 
 .caixas li {
     display: inline-block;
     width: 30%;
-    padding: 25px;
-    margin: 0 10px;
+    height: 200px;
+    padding: 20px 34px;
+    margin: 10px 10px;
     background-color: hsl(300, 43%, 22%);
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 4px;
+    font-family: 'Spartan', sans-serif;
+    text-align: left;
+}
+
+.foto-lado-texto {
+    display: flex;
+}
+
+.nome-verificado {
+    display: flex;
+    flex-direction: column;
+    margin:10px 0 0 10px;
 }
 
 .caixas img {
     border-radius: 50%;
-    width: 15%;
+    width: 20%;
 }
 
 .caixas h2 {
     font-weight: bold;
     color: white;
-    
 }
 
 .verificado {
@@ -97,6 +148,8 @@ h1 {
 
 .conteudo-caixa {
     color: white;
+    margin:10px 0 0 0;
+    font-size: 14px;
 }
 
 .attribution {
