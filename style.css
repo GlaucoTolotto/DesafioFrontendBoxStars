@@ -118,7 +118,7 @@ h1 {
 .caixas li {
     display: inline-block;
     width: 30%;
-    height: 200px;
+    height: 190px;
     padding: 20px 34px;
     background-color: hsl(300, 43%, 22%);
     box-sizing: border-box;
@@ -173,4 +173,63 @@ h1 {
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and ()
+@media screen and (max-width: 700px) {
+    main {
+        width: 375px;
+        padding: auto;
+        margin:auto;
+        box-sizing: border-box;
+    }    
+    .parte-de-cima {
+        display: flex;
+        padding: 50px 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo-texto {
+        display: flex;
+        justify-content:Center;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+    }
+    .titulo-texto p {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .caixa-estrela {
+        display: flex;
+        align-items: center;
+    }
+    .card1 {
+        display: flex;
+        margin:10px 0 10px 0;
+        padding: 10px 100px 10px 100px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card2 { 
+        display: flex;
+        margin:10px 0 10px 0;
+        padding: 10px 100px 10px 100px;
+        flex-wrap: wrap;
+    }
+    .card3 {
+        background-color: hsl(300, 24%, 96%);
+        display: flex;
+        margin:10px 0 10px 0;
+        padding: 10px 100px 10px 100px;
+        flex-wrap: wrap;
+    }  
+    .caixas {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 30px;
+
+    }
+}    
