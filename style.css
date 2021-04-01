@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 html {
     min-height: 100%;
     background-image: url('./images/bg-pattern-bottom-desktop.svg');
@@ -35,14 +34,13 @@ main {
 .titulo-texto p {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'Spartan', sans-serif;
     margin-top: 10px;
 }
 
 h1 {
     font-family:'Spartan', sans-serif;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 900;
     color: hsl(300, 43%, 22%);
 }
 
@@ -66,6 +64,8 @@ h1 {
     margin-left: 10px;
     padding: 10px 70px 10px 10px;
     border-radius: 5px;
+    font-family: 'Spartan' sans-serif;
+    font-weight: 400;
 }
 
 .card2 {
@@ -74,6 +74,8 @@ h1 {
     margin-left: 60px;
     padding: 10px 70px 10px 10px;
     border-radius: 5px;
+    font-family: 'Spartan' sans-serif;
+    font-weight: 400;
 }
 
 .card3 {
@@ -82,6 +84,8 @@ h1 {
     margin-left: 120px;
     padding: 10px 70px 10px 10px;
     border-radius: 5px;
+    font-family: 'Spartan' sans-serif;
+    font-weight: 400;
 }
 
 .imagens-estrela {
@@ -90,22 +94,25 @@ h1 {
 }
 
 .caixas {
+    display: flex;
     width: 100%;
     margin: 0 auto;
     padding: 30px 0;
-    height: 200px;
+    height: 300px;
+    
 }
 
 .caixa1 {
-    margin-top: p;
+    margin: 10px 10px 0 0; 
+
 }
 
 .caixa2 {
-    margin-top: ;
+    margin: 20px 10px 0 0;
 }
 
 .caixa3 {
-    margin-top:30px;
+    margin:30px 10px 0 0;
 }
 
 .caixas li {
@@ -113,7 +120,6 @@ h1 {
     width: 30%;
     height: 200px;
     padding: 20px 34px;
-    margin: 10px 10px;
     background-color: hsl(300, 43%, 22%);
     box-sizing: border-box;
     border-radius: 4px;
@@ -148,8 +154,10 @@ h1 {
 
 .conteudo-caixa {
     color: white;
-    margin:10px 0 0 0;
-    font-size: 14px;
+    margin:15px 0 0 0;
+    font-size: 12px;
+    font-family:'Spartan', sans-serif;
+    font-weight: 400;
 }
 
 .attribution {
@@ -165,5 +173,4 @@ h1 {
     color: hsl(228, 45%, 44%);
 }
 
-
-
+@media screen and ()
